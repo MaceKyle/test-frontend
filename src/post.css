@@ -1,0 +1,19 @@
+.post-card {
+  background-color: aqua;
+  padding: 2% 5%;
+  margin: 5% 0 5% 0;
+  border-radius: 10px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-time-edited {
+  display: flex;
+}
+
+.text-time-edited {
+  color: grey;
+}
