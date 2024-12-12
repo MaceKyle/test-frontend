@@ -1,4 +1,7 @@
 .div-header {
   display: flex;
   justify-content: space-between;
+  background-color: #5A287D;
+  padding: 0 3rem;
+  align-items: flex-end;
 }

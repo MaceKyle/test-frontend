@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './styles/App.css'
 import { dummyPostTableData } from './dummyPostTableData'
 import Post from './post'
@@ -10,17 +8,30 @@ import Header from './Header'
 function App() {
   const [count, setCount] = useState(0);
 
+  const [testData, setTestData] = useState(dummyPostTableData);
+
+  console.log(testData);
+
+  function addPost(post) {
+    return setTestData((prev) => [
+      post,
+      ...prev
+    ])
+  }
+
   const userLoggedIn = true; // for now, will depend on session variable after.
 
   return (
     <>
-      <Header userLoggedIn={userLoggedIn} username={"DummyUsername"} />
-      {userLoggedIn ? <SubmitPost /> : <h3>Login to post!</h3>}
+    <Header userLoggedIn={userLoggedIn} username={"DummyUsername"} />
+    <div class="app-background">
+      {userLoggedIn ? <SubmitPost addPost={addPost} /> : <h3>Login to post!</h3>}
       {
-        dummyPostTableData.map((post, i) => 
+        testData.map((post, i) => 
           <Post key={i} postObject={post} />
         )
       }
+    </div>
     </>
   )
 }

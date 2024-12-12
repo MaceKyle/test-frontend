@@ -1,5 +1,5 @@
 .post-card {
-  background-color: aqua;
+  background-color: #5E10B1;
   padding: 2% 5%;
   margin: 5% 0 5% 0;
   border-radius: 10px;
@@ -12,6 +12,8 @@
 
 .div-time-edited {
   display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
 }
 
 .text-time-edited {
