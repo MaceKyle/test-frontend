@@ -25,10 +25,13 @@ function App() {
     <>
     <Header userLoggedIn={userLoggedIn} username={"DummyUsername"} />
     <div class="app-background">
-      {userLoggedIn ? <SubmitPost addPost={addPost} /> : <h3>Login to post!</h3>}
+      {userLoggedIn ? 
+        <SubmitPost addPost={addPost} /> : 
+        <h3>Login to post!</h3>
+      }
       {
         testData.map((post, i) => 
-          <Post key={i} postObject={post} />
+          <Post key={i} postObject={post} userLoggedIn={userLoggedIn} />
         )
       }
     </div>

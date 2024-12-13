@@ -1,7 +1,6 @@
 import './styles/post.css'
 
 function Post(props) {
-
   const edited_since_published = props.postObject.published_at !== props.postObject.updated_at;
 
   return (

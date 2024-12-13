@@ -1,7 +1,22 @@
 .div-header {
   display: flex;
   justify-content: space-between;
-  background-color: #5A287D;
-  padding: 0 3rem;
-  align-items: flex-end;
+  background-image: linear-gradient(to right, #3C1053, 0%, #5A287D 80%);
+  padding: 2rem 3rem;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.logohead {
+  width: 125px;
+}
+
+.header-slogans {
+  text-align: left;
 }

@@ -1,7 +1,7 @@
 .post-card {
   background-color: #5E10B1;
   padding: 2% 5%;
-  margin: 5% 0 5% 0;
+  margin: 5% 20rem;
   border-radius: 10px;
 }
 
@@ -18,4 +18,50 @@
 
 .text-time-edited {
   color: grey;
+}
+
+.add-post-form {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  padding: 2rem 2.5rem;
+  gap: 2rem;
+}
+
+.post-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.post-title-input, .post-content-input{
+  border-radius: 10px;
+  font-family: 'RN House Sans W01 Regular';
+}
+
+.post-title-input {
+  height: 40px;
+}
+
+.post-content-input {
+  height: 150px;
+}
+
+.post-content-submit {
+  border-radius: 10px;
+  font-family: 'RN House Sans W01 Regular';
+  height: 30px;
+}
+
+.div-post-vote {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add-post-card {
+  display: flex;
+  align-items: center;
+  background-color: #F2EAF9;
+  min-height: 325px;
+  padding: 0 12.5rem;
 }
