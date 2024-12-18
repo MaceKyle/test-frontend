@@ -23,7 +23,9 @@
 .add-post-form {
   display: grid;
   grid-template-columns: 1.5fr 2.5fr;
-  padding: 2rem 2.5rem;
+  padding: 2rem 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
   gap: 2rem;
 }
 
