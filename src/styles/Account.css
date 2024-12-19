@@ -1,0 +1,15 @@
+.change-user-details-form {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  padding: 2rem 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.change-user-details-form input {
+  border-radius: 10px;
+  font-family: 'RN House Sans W01 Regular';
+  height: 40px;
+}
+
