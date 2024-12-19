@@ -1,11 +1,11 @@
-import './styles/header.css';
+import '../styles/header.css';
 
 function Header(props) {
   
   return (
     <div class="div-header">
       <div className='logo-container'>
-        <img className="logohead" src="src\assets\NatWest logo.png" alt="NatWest Logo" />
+        <img className="logohead" src="src\assets\5a1d2d464ac6b00ff574e288.png" alt="NatWest Logo" />
         <div className="header-slogans">
           <h1 style={{fontSize: 60, margin: 0}}>NatWest</h1>
           <h2>Tomorrow Begins <u>Today</u></h2>
