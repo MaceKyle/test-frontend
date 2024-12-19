@@ -13,7 +13,7 @@ function Header(props) {
       </div>
       {
         props.userLoggedIn ? 
-        <h3>Hi, {props.username}</h3> :
+        <a href="/account"><h3>Hi, {props.username}!</h3></a> :
         <button>Login</button>
       }
     </div>

@@ -1,6 +1,6 @@
 
 
-function UserDetails(props) {
+function Account(props) {
 
   const username = "dummyUsername";
 
@@ -11,4 +11,4 @@ function UserDetails(props) {
   );
 }
 
-export default UserDetails;
+export default Account;
